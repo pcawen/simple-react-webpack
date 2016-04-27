@@ -1,8 +1,9 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+require('helloworld.jsx');
 
 ReactDOM.render(
-  <h1>Hi there :)</h1>,
+  <SayHello/>,
   document.getElementById('myApp')
 );
 

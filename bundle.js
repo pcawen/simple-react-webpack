@@ -48,12 +48,9 @@
 
 	var React = __webpack_require__(1);
 	var ReactDOM = __webpack_require__(31);
+	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"helloworld.jsx\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
-	ReactDOM.render(React.createElement(
-	  'h1',
-	  null,
-	  'Hi there :)'
-	), document.getElementById('myApp'));
+	ReactDOM.render(React.createElement(SayHello, null), document.getElementById('myApp'));
 
 	console.log(("develop"));
 
