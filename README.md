@@ -5,7 +5,7 @@ This project will be evolving into a more complex react app with more developmen
 ```sh 
 webpack main.js bundle.js --module-bind 'js=babel-loader'
 ```
-###To show error details add the followin parameter at the end
+###To show error details add the following parameter at the end
 ```sh 
 --display-error-details
 ```
