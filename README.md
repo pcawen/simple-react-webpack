@@ -1,6 +1,9 @@
 #React webpack simple test
 This project will be evolving into a more complex react app with more development and production configurations and tools using npm and webpack.
 
+Note:
+As the project is evolving this documentatios is becomming a mess.
+
 ##To create the bundle from command line
 ```sh 
 webpack main.js bundle.js --module-bind 'js=babel-loader'
