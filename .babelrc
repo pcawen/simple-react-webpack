@@ -1,0 +1,10 @@
+{ "presets": ["react"] }
+/*
+You can use this file or put the configuration on the package.json as follow:
+Using .baberrc is specilly handy when the configuration of bagel is large.
+"babel": {
+    "presets": [
+      "react"
+    ]
+  }
+ */

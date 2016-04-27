@@ -4,7 +4,9 @@
   "description": "A simple test aplication to exercise some configurations and other react stuff.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.prod.js -p",
+    "start": "webpack-dev-server --inline --hot"
   },
   "keywords": [
     "React",
@@ -22,10 +24,5 @@
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
     "webpack": "^1.13.0"
-  },
-  "babel": {
-    "presets": [
-      "react"
-    ]
   }
 }
