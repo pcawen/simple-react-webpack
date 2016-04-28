@@ -1,9 +1,10 @@
 var webpack = require("webpack");
 
 module.exports = {
+  //context: __dirname + "/src",
   entry: "./main.js",
   output: {
-  	path: __dirname,
+  	path: __dirname + "/dist",
   	filename: "bundle.js"
   },
   module: {
@@ -17,5 +18,8 @@ module.exports = {
 	    NODE_ENV: JSON.stringify("develop")//production
 	  }
 	})
-  ]
+  ],
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  }
 };

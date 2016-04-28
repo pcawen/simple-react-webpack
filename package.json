@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-prod": "webpack --config webpack.config.prod.js -p",
-    "build": "webpack main.js bundle.js --module-bind 'js=babel-loader' --display-error-details",
+    "build": "webpack --config webpack.config.prod.js -p",
+    "build-dev": "webpack main.js bundle.js --module-bind 'js=babel-loader' --display-error-details",
     "start": "webpack-dev-server --inline --hot"
   },
   "keywords": [
