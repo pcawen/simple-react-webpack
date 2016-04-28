@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.prod.js -p",
-    "build-dev": "webpack main.js bundle.js --module-bind 'js=babel-loader' --display-error-details",
+    "build-dev": "webpack --display-error-details",
     "start": "webpack-dev-server --inline --hot"
   },
   "keywords": [
