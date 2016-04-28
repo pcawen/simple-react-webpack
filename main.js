@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-require('helloworld.jsx');
+var SayHello = require('./helloworld');
 
 ReactDOM.render(
   <SayHello/>,

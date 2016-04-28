@@ -1,3 +1,5 @@
+var React = require('react');
+
 var SayHello = React.createClass({
   render: function() {
   	return (
