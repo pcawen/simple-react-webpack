@@ -2,8 +2,16 @@ var React = require('react');
 
 var SayHello = React.createClass({
   render: function() {
+  	var nameList = this.props.nameLst.map(function(name) {
+  	  return (
+        <li>{name}</li>
+  	  );
+  	});
   	return (
-      <h1>Hi there :q</h1>
+  	  <div>
+        <h1>Hi there :q {this.props.nameLst[0]}</h1>
+	    <ul>{nameList}</ul>
+	  </div>
   	);
   }
 });
